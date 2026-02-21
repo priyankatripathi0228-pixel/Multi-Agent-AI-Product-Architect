@@ -9,7 +9,6 @@
 
 <img width="1838" height="1038" alt="Ai Product Development Lifecycle" src="https://github.com/user-attachments/assets/00d9e10d-f451-4be7-8fc5-b5ae7c06594f" />
 
-![1_KfeaX094P8N_BALXBYIsjw](https://github.com/user-attachments/assets/eb54d870-1a1f-43f8-954d-858cb424f99e)
 
 </p>
 
