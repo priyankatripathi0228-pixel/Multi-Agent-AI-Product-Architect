@@ -2,7 +2,8 @@
 ### Autonomous AI Team that Turns Ideas into Complete Product Plans
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/resize:fit:1400/1*multi-agent-system-diagram.png" width="800"/>
+  <img width="1280" height="720" alt="Building Multi Ai Agent System" src="https://github.com/user-attachments/assets/5a193d29-6090-4f11-8c07-591c81bc2679" />
+  
   <img width="1280" height="720" alt="Building Multi Ai Agent System" src="https://github.com/user-att![Block Of Agentic Ai](https://github.com/user-attachments/assets/802e1637-7097-4eb1-98a9-a649017d12ba)
 achments/assets/ba2e086d-3dcc-464e-958b-624078aed406" />
   <img width="1838" height="1038" alt="Ai Product Development Lifecycle" src="https://github.com/user-attachments/assets/34048032-d2ec-499c-a72e-66dec10ab3fb" />
