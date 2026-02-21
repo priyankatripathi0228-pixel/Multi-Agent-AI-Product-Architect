@@ -2,14 +2,17 @@
 ### Autonomous AI Team that Turns Ideas into Complete Product Plans
 
 <p align="center">
-  <img src="https://miro.medium.com/v2/r![db03e245-a3c6-4ed5-9864-564345e6dcbf_880x495](https://github.com/user-attachments/assets/2b971c3b-4c06-4c35-aa56-658aa5a0387e)
-esize:fit:1400/1*multi-agent-system-di<img width="1838" height="1038" alt="24ae1a0f-88e2-4455-b1e0-fedcf5dd93eb_1838x1038" src="https://github.com/user-attachments/assets/93655761-17e8-45d8-8226-7570f01812a8" />![1_KfeaX094P8N_BALXBYIsjw](https://github.com/user-attachments/assets/182c5924-86ad-4dff-a9e7-5577d20c736a)
+  <img src="https://miro.medium.com/v2/resize:fit:1400/1*multi-agent-system-diagram.png" width="800"/>
+  <img width="1280" height="720" alt="Building Multi Ai Agent System" src="https://github.com/user-att![Block Of Agentic Ai](https://github.com/user-attachments/assets/802e1637-7097-4eb1-98a9-a649017d12ba)
+achments/assets/ba2e086d-3dcc-464e-958b-624078aed406" />
+  <img width="1838" height="1038" alt="Ai Product Development Lifecycle" src="https://github.com/user-attachments/assets/34048032-d2ec-499c-a72e-66dec10ab3fb" />
 
-agram.png" width="800"/>
 </p>
-<img width="1280" height="720" alt="1728887673970" src="https://github.com/user-attachments/assets/dc020f1a-6480-4f9f-bc28-e1238030a0a7" />
 
-> Build an **AI team**, not just a chatbot.  
+
+> Build an **AI team**, not just![1_KfeaX094P8N_BALXBYIsjw](https://github.com/user-attachments/assets/3a462bbd-20dc-484e-b259-2dfde997c3bc)
+ a chatbot.
+> 
 > This project simulates a full cross-functional product squad powered by role-based LLM agents that collaborate to transform a raw idea into a production-ready product blueprint.
 
 ---
@@ -228,9 +231,6 @@ Together they signal:
 - Vector database memory  
 - Cost tracking per agent  
 - Human-in-the-loop review  
-
----
-
 
 
 ---
