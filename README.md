@@ -2,12 +2,12 @@
 ### Autonomous AI Team that Turns Ideas into Complete Product Plans
 
 <p align="center">
-  <img width="1280" height="720" alt="Building Multi Ai Agent System" src="https://github.com/user-attachments/assets/5a193d29-6090-4f11-8c07-591c81bc2679" />
+  <img width="1280" height="433" alt="Building Multi Ai Agent System" src="https://github.com/user-attachments/assets/5a193d29-6090-4f11-8c07-591c81bc2679" />
   
  
 ![Block Of Agentic Ai](https://github.com/user-attachments/assets/a79cca4d-588b-4627-8471-54a1551d7502)
 
-<img width="1838" height="1038" alt="Ai Product Development Lifecycle" src="https://github.com/user-attachments/assets/00d9e10d-f451-4be7-8fc5-b5ae7c06594f" />
+<img width="1838" height="450" alt="Ai Product Development Lifecycle" src="https://github.com/user-attachments/assets/00d9e10d-f451-4be7-8fc5-b5ae7c06594f" />
 
 
 </p>
