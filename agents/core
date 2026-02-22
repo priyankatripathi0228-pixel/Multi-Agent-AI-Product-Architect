@@ -1,1 +1,79 @@
+This connects your agents to the LLM.
+
+import os
+from openai import OpenAI
+
+# create OpenAI client using your API key from environment variable
+client = OpenAI(api_key=os.getenv("OPENAI_API_KEY"))
+
+def call_llm(prompt: str) -> str:
+    """
+    Sends prompt to the LLM and returns text response
+    """
+    response = client.chat.completions.create(
+        model="gpt-4.1-mini",   # lightweight + cheap model
+        messages=[{"role": "user", "content": prompt}],
+        temperature=0.4,
+    )
+
+    return response.choices[0].message.content
+
+
+This file coordinates all agents.
+
+from agents.pm_agent import run_pm_agent
+from agents.architecture_agent import run_architecture_agent
+from agents.backend_agent import run_backend_agent
+from agents.database_agent import run_database_agent
+from agents.testing_agent import run_testing_agent
+from agents.risk_agent import run_risk_agent
+from agents.evaluation_agent import run_evaluation_agent
+
+
+def run_workflow():
+    idea = """
+    Build a fitness tracking app for busy professionals.
+    Target users: working people aged 25–40.
+    Platform: mobile + web.
+    """
+
+    print("\n🧠 Running Product Manager Agent...")
+    prd = run_pm_agent(idea)
+
+    print("\n🏗 Running Architecture Agent...")
+    architecture = run_architecture_agent(prd)
+
+    print("\n🔌 Running Backend Agent...")
+    backend = run_backend_agent(prd)
+
+    print("\n🗄 Running Database Agent...")
+    database = run_database_agent(prd)
+
+    print("\n🧪 Running Testing Agent...")
+    tests = run_testing_agent(prd)
+
+    print("\n⚠ Running Risk Agent...")
+    risks = run_risk_agent(prd)
+
+    outputs = {
+        "PRD": prd,
+        "Architecture": architecture,
+        "Backend": backend,
+        "Database": database,
+        "Tests": tests,
+        "Risks": risks,
+    }
+
+    print("\n📊 Running Evaluation Agent...")
+    evaluation = run_evaluation_agent(str(outputs))
+
+    print("\n\n========== FINAL OUTPUT ==========")
+    print(outputs)
+    print("\nEvaluation:")
+    print(evaluation)
+
+
+if __name__ == "__main__":
+    run_workflow()
+
 
